@@ -12,6 +12,7 @@
 		<module>manager</module>
 		<module>job-common-pojo</module>
 		<module>job-common-config</module>
+		<module>job-service-sso-api</module>
 	</modules>
 
 
