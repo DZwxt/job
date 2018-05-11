@@ -5,7 +5,7 @@
 
 
 	<select id="list" resultType="com.home.system.domain.UserDO">
-			select
+		select
 		`user_id`,`username`,`name`,`password`,`dept_id`,`email`,`mobile`,`status`,`user_id_create`,`gmt_create`,`gmt_modified`,`sex`,`birth`,`pic_id`,`live_address`,`hobby`,`province`,`city`,`district`
 		from sys_user
 		<where>
@@ -31,7 +31,7 @@
 		</where>
 		<choose>
 			<when test="sort!=null and sort.trim() != null">
-				order by #{sort} #{order} 
+				order by #{sort} #{order}
 			</when>
 			<otherwise>
 				order by user_id desc
@@ -41,11 +41,4 @@
 			limit #{offset},#{limit}
 		</if>
 	</select>
-	
-	<select id="count" resultType="int">
-		select count(user_id) from sys_user
-	</select>
-
-
-
 </mapper>

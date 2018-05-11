@@ -17,6 +17,7 @@ import org.apache.shiro.cas.CasRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 
 import com.dw.login.config.ApplicationContextRegister;
+import com.dw.login.dao.UserDao;
 import com.dw.login.servicd.MenuService;
 import com.dw.login.util.ShiroUtils;
 

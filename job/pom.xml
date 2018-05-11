@@ -8,6 +8,8 @@
 	<modules>
 		<module>login</module>
 		<module>common</module>
+		<module>blog</module>
+		<module>manager</module>
 	</modules>
 
 
