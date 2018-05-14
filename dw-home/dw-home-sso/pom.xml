@@ -5,6 +5,6 @@
     <artifactId>dw-home</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>dw-home-sso</artifactId>
+  <artifactId>dw-home-service-sso</artifactId>
   <packaging>war</packaging>
 </project>
