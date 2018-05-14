@@ -5,5 +5,5 @@
     <artifactId>dw-home</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>dw-home-common-pojo</artifactId>
+  <artifactId>dw-home-service-redis-api</artifactId>
 </project>

@@ -15,6 +15,7 @@
 		<module>dw-home-sso</module>
 		<module>dw-home-web-sso</module>
 		<module>dw-home-manager-api</module>
+		<module>dw-home-service-redis-api</module>
 	</modules>
 
 	<parent>
