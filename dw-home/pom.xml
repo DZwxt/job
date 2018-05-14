@@ -8,5 +8,9 @@
   	<module>dw-home-common</module>
   	<module>dw-home-pojo</module>
   	<module>dw-home-common-config</module>
+  	<module>dw-home-service-blog</module>
+  	<module>dw-home-service-manager</module>
+  	<module>dw-home-sso-api</module>
+  	<module>dw-home-sso</module>
   </modules>
 </project>
