@@ -1,16 +1,27 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.dw</groupId>
-  <artifactId>dw-home</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>dw-home-common</module>
-  	<module>dw-home-pojo</module>
-  	<module>dw-home-common-config</module>
-  	<module>dw-home-service-blog</module>
-  	<module>dw-home-service-manager</module>
-  	<module>dw-home-sso-api</module>
-  	<module>dw-home-sso</module>
-  </modules>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.dw</groupId>
+	<artifactId>dw-home</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>dw-home-common</module>
+		<module>dw-home-pojo</module>
+		<module>dw-home-common-config</module>
+		<module>dw-home-service-blog</module>
+		<module>dw-home-service-manager</module>
+		<module>dw-home-sso-api</module>
+		<module>dw-home-sso</module>
+		<module>dw-home-web-sso</module>
+	</modules>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>com.mangofactory</groupId>
+			<artifactId>swagger-springmvc</artifactId>
+			<version>0.9.4</version>
+		</dependency>
+	</dependencies>
 </project>
