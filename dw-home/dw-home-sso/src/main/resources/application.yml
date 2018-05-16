@@ -1,19 +1,19 @@
 #DUBBO
 dubbox:
   application:
-    name: xbin-store-web-item
+    name: dw-home-service-sso
     organization: dubbox
-    owner: binux
+    owner: dw
   registry:
     protocol: zookeeper
-    address: 192.168.125.128:2181
+    address: 140.143.229.15:2181
   annotation:
-    package: cn.binux.item.controller
-  monitor:
-    enabled: false
-    address: 192.168.125.1:6060
-    username: admin
-    password: admin
+    package: com.dw.sso
+  #monitor:
+   # enabled: false
+   # address: 192.168.125.1:6060
+   # username: admin
+    #password: admin
 
 #配置模板想到classpath路径，后面须加上"/"
 beetl:
