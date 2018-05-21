@@ -17,6 +17,8 @@
 		<module>dw-home-manager-api</module>
 		<module>dw-home-service-redis-api</module>
 		<module>dw-home-mapper</module>
+		<module>dw-home-web-manager</module>
+		<module>dw-home-web-blog</module>
 	</modules>
 
 	<parent>
