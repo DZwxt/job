@@ -10,7 +10,12 @@ import java.util.Date;
 
 @Data
 public class TbTransactionMessage implements Serializable {
-    private String id;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private String id;
 
     private Integer version;
 

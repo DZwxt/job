@@ -7,7 +7,12 @@ import java.util.Date;
 
 @Data
 public class TbItemDesc implements Serializable {
-    private Long itemId;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private Long itemId;
 
     private Date created;
 

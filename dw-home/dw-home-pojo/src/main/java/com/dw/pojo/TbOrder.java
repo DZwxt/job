@@ -7,7 +7,12 @@ import java.util.Date;
 
 @Data
 public class TbOrder implements Serializable {
-    private String orderId;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private String orderId;
 
     private Long userId;
 

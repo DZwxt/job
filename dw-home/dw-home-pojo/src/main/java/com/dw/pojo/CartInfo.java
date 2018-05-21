@@ -16,7 +16,11 @@ import java.io.Serializable;
 @Data
 public class CartInfo implements Serializable{
 
-    private Long id;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private Long id;
     private String name;
     private String imageUrl;
     private String colour;

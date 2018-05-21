@@ -17,7 +17,11 @@ import java.text.DecimalFormat;
 @Data
 public class SolrItem implements Serializable {
 
-    private String id;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String id;
     private String image;
     private Long price;
     private String sell_point;
